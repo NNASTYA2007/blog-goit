@@ -16,3 +16,42 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
 }
+.section-title {
+  text-transform: uppercase;
+  color:  rgb(95, 108, 116);
+}
+#portfolio {
+  background-color: #eee;
+}
+
+.text-description {
+  font-size: 12px;
+  font-family: "Oswald";
+  color: rgb(95, 108, 116);
+  line-height: 1.2;
+  text-align: justifyLeft;
+}
+.subtitle-text {
+  color:  rgb(95, 108, 116); 
+}
+.btn {
+  background: rgba(139, 146, 151, 0.849);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff
+}
+.section-title-footer {
+  text-transform: uppercase;
+  color: white;
+  
+  padding-top: 20px;
+  display: block;
+  
+}
+
+footer {
+  background-color:rgb(95, 108, 116);
+  height: 300px;
+  margin-top: 20px;
+  padding: 20px;
+}
