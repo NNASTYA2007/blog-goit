@@ -16,9 +16,35 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
 }
+header > a {
+  text-transform: lowercase;
+}
+header ul + a {
+  margin-left: 12px;
+}
+main,
+header ul {
+  width: 800px;
+  margin: 0 auto;
+}
 .section-title {
   text-transform: uppercase;
-  color:  rgb(95, 108, 116);
+  color: rgb(95, 108, 116);
+}
+section {
+  padding: 30px 15px 30px 15px;
+}
+.section-inner div {
+  padding: 10px 15px;
+}
+.section-inner {
+  display: flex;
+}
+.section-inner h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 #portfolio {
   background-color: #eee;
@@ -32,26 +58,30 @@ header a {
   text-align: justifyLeft;
 }
 .subtitle-text {
-  color:  rgb(95, 108, 116); 
+  color: rgb(95, 108, 116);
 }
 .btn {
   background: rgba(139, 146, 151, 0.849);
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff
+  color: #fff;
 }
 .section-title-footer {
   text-transform: uppercase;
   color: white;
-  
   padding-top: 20px;
   display: block;
-  
 }
 
 footer {
-  background-color:rgb(95, 108, 116);
+  background-color: rgb(95, 108, 116);
   height: 300px;
   margin-top: 20px;
   padding: 20px;
+}
+.portfolio img {
+  transition: 0.5s;
+}
+.portfolio img:hover {
+  transform: scale(2);
 }
