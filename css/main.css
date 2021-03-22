@@ -35,10 +35,11 @@ section {
   padding: 30px 15px 30px 15px;
 }
 .section-inner div {
-  padding: 10px 15px;
+  padding: 15px 10px;
 }
 .section-inner {
   display: flex;
+  justify-content: space-around;
 }
 .section-inner h3 {
   text-transform: uppercase;
@@ -83,5 +84,23 @@ footer {
   transition: 0.5s;
 }
 .portfolio img:hover {
-  transform: scale(2);
+  transform: scale(1.2);
+}
+.portfolio img {
+  margin-top: 20px;
+  padding: 4px;
+}
+.section-blog div {
+  padding: 15px 10px;
+}
+.section-blog {
+  justify-content: space-around;
+  display: flex;
+  color: rgb(95, 108, 116);
+}
+.section-blog h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
