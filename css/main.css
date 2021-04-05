@@ -136,3 +136,30 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.box3 {
+  width: 50%;
+  height: 400px;
+  background: url("https://images.pexels.com/photos/776526/pexels-photo-776526.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb")
+    no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.box3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.box3:hover::before {
+  opacity: 1;
+  top: 20px;
+  bottom: -20px;
+  left: 20px;
+  right: -20px;
+}
